@@ -182,3 +182,31 @@ main{
 .skill img, h4, p{
     margin-bottom: 30px;
 }
+
+/* Resume Section Style */
+
+.resume-container{
+    display: flex;
+    gap: 70px;
+    margin-top: 110px;
+}
+.resume h4{
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.resume h6{
+    color: #757575;
+}
+.resume hr{
+    border: 1px solid #D1D1D1;
+    margin: 30px 0;
+}
+.resume-description{
+    margin-top: 30px;
+    color: #757575;
+    font-size: 16px;
+}
+.resume-button{
+    margin-top: 50px;
+}
