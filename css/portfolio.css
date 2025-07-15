@@ -210,3 +210,35 @@ main{
 .resume-button{
     margin-top: 50px;
 }
+
+/* Footer Style */
+.footer{
+    padding: 130px 0;
+}
+.footer-container{
+    display: flex;
+    gap: 100px;
+    padding: 0px 230px;
+}
+.footer .section-title{
+    margin-bottom: 20px;
+}
+.footer-social-links{
+    display: flex;
+}
+.footer-social-links li{
+    list-style: none;
+    margin-right: 24px;
+}
+.footer input[type="text"], .footer input[type="email"], textarea{
+    display: block;
+    width: 460px;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    border: none;
+    color: #757575;
+    border-radius: 5px;
+}
+.footer input[type="text"]:focus{
+    border: none;
+}
