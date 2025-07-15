@@ -239,6 +239,11 @@ main{
     color: #757575;
     border-radius: 5px;
 }
-.footer input[type="text"]:focus{
+.footer input:focus, .footer textarea{
+    border: none;
+    outline: none;
+}
+
+.footer input:focus{
     border: none;
 }
